@@ -26,7 +26,7 @@
         alias podman='podman --remote --url="unix:///mnt/wsl/podman-sockets/podman-machine-default/podman-root.sock"'
 
 
-        export KUBECONFIG=/mnt/c/Users/your_userid/.kube/config
+        export KUBECONFIG=/mnt/c/Users/your_user/.kube/config
         export PATH=$PATH:/opt/apache-maven-3.9.6/bin
         export JAVA_HOME=/usr/lib/jvm/temurin-17-jdk-amd64
         export DOCKER_HOST=unix:///mnt/wsl/podman-sockets/podman-machine-default/podman-root.sock
