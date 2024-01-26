@@ -20,13 +20,13 @@
         ```
         eval "$(starship init zsh)"
 
-        # alias kubectl=/mnt/c/ProgramData/chocolatey/bin/kubectl.exe
+        alias kubectl=/mnt/c/ProgramData/chocolatey/bin/kubectl.exe
         alias oc=/mnt/c/ProgramData/chocolatey/bin/oc.exe
         alias dive=/mnt/c/ProgramData/chocolatey/bin/dive
         alias podman='podman --remote --url="unix:///mnt/wsl/podman-sockets/podman-machine-default/podman-root.sock"'
 
 
-        export KUBECONFIG=/mnt/c/Users/Haerin/.kube/config
+        export KUBECONFIG=/mnt/c/Users/your_userid/.kube/config
         export PATH=$PATH:/opt/apache-maven-3.9.6/bin
         export JAVA_HOME=/usr/lib/jvm/temurin-17-jdk-amd64
         export DOCKER_HOST=unix:///mnt/wsl/podman-sockets/podman-machine-default/podman-root.sock
